@@ -1,0 +1,37 @@
+{
+  "name": "eslint-plugin-flowtype",
+  "version": "1.0.0",
+  "description": "ESLint checking of files containing FlowType annotations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "plugin",
+    "eslintplugin",
+    "flowtype"
+  ],
+  "peerDependencies": {
+    "eslint": ">=0.20.0"
+  },
+  "files": [
+    "README.md",
+    "index.js"
+  ],
+  "homepage": "https://github.com/gcazaciuc/eslint-plugin-flowtype",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gcazaciuc/eslint-plugin-flowtype.git"
+  },
+  "author": "Cazaciuc Gabriel",
+  "license": "MIT",
+  "dependencies": {
+    "esprima-fb": "^15001.1.0-dev-harmony-fb",
+    "recast": "^0.10.13",
+    "source-map": "^0.4.2"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  }
+}
