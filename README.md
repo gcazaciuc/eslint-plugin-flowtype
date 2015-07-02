@@ -11,17 +11,17 @@ Internally the plugin makes use of Recast for performing AST transforms and stri
 
 The plugin also preserves the line numbers by using Recast source maps.
 
-Configuration
+# Configuration
 Enable the plugin in eslint.rc file by adding it to the plugins section:
 
 plugins: ["flowtype"]
 
-Know issues
+# Know issues
 Issues with max-len ESlint rule reporting the line/column number as "0:0"
 
-TO DO:
+# TO DO:
 Investigate the use of flow-parser for parsing the source code and stripping out any annotations. Currently the problem is that we cannot get Recast to play nice with "flow-parser".
 I would appreciate any help on this matter.
 
-Thanks
+# Thanks
 Many thanks to fkling ( https://github.com/fkling/flow-typestrip ) for writing up the type annotation striping logic. 
